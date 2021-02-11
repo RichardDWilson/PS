@@ -1,4 +1,32 @@
 /* Standard CSS */
 html{
   background-color: slategrey;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+div{
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  align-content: stretch;
+}
+
+.hand{
+  display: flex;
+  background-color: grey;
+  width: 90%;
+  height: 400px;
+}
+
+.card{
+  display: flex;
+  background-color: darkred;
+  width: 20%;
+  height: .5vh;
+}
+
+.card:hover{
+  width: 400px;
 }
