@@ -1,32 +1,74 @@
 /* Standard CSS */
 html{
   background-color: slategrey;
+  background-image: files/Hanalei.jpg;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
 }
 
+h1{
+  font-size: 2rem;
+  margin: 4rem auto 1rem auto;
+}
+
+h2{
+  font-size: 1.2rem;
+  margin: 1rem auto 1rem auto;
+}
+
+h3{
+  font-size: 1.2rem;
+  margin: .2rem;
+}
+
+p{
+  font-size: inherit;
+  margin: .2rem;
+  text-align: left;
+}
+
 div{
-  display: flex;
+  flex-flow: row nowrap;
   justify-content: center;
   box-sizing: border-box;
   align-content: stretch;
+  transition: width 1s, height 1s, font-size 1s;
+  transition-delay: .25s;
+  transition-timing-function: ease-in;
 }
 
-.hand{
+.top-container{
   display: flex;
+  flex: auto;
+  flex-flow: column;
+  align-items: center;
+}
+
+.mid-container{
+  display: flex;
+  flex: auto;
+  justify-content: space-evenly;
   background-color: grey;
-  width: 90%;
-  height: 400px;
+  border-radius: 1.8rem;
 }
 
 .card{
   display: flex;
-  background-color: darkred;
-  width: 20%;
-  height: .5vh;
+  flex-flow: column;
+  background-color: lightblue;
+  background-size: cover;
+  border: solid 2px black;
+  border-radius: 1.6rem;
+  margin: .6rem;
+  width: 9rem;
+  height: 4rem;
+  font-size: 0rem;
+  text-align: center;
 }
 
 .card:hover{
-  width: 400px;
+  width: 18rem;
+  height: 20rem;
+  font-size: 1rem;
 }
