@@ -1,7 +1,7 @@
 /* Standard CSS */
 html{
   background-color: slategrey;
-  background-image: files/Hanalei.jpg;
+  background-image: url(https://raw.githubusercontent.com/RichardDWilson/PS/main/files/Hanalei.jpg);
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
@@ -9,12 +9,16 @@ html{
 
 h1{
   font-size: 2rem;
+  font-weight: bold;
   margin: 4rem auto 1rem auto;
+  text-shadow: white 0 0 .1rem;
 }
 
 h2{
   font-size: 1.2rem;
+  font-weight: bold;
   margin: 1rem auto 1rem auto;
+  text-shadow: white 0 0 .1rem;
 }
 
 h3{
