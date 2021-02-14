@@ -2,6 +2,7 @@
 html{
   background-color: slategrey;
   background-image: url(https://raw.githubusercontent.com/RichardDWilson/PS/main/files/Hanalei.jpg);
+  background-size: cover;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
